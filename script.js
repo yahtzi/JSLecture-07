@@ -13,3 +13,14 @@ if (diameter > 0) {
     let circumference = pi * diameter;
     console.log("The circumference is " + circumference);
 }
+
+//Write one function that calls another function//
+const greeting = () => {
+    sayInsult();
+}
+
+const sayInsult = () => {
+    return "Fool!";
+}
+
+greeting();
