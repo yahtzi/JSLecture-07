@@ -5,3 +5,11 @@ const greetMe = (myName) => {
 };
 
 console.log(greetMe("Partner"));
+
+//2. Write a function that give the approximate circumference of a circle given the diameter//
+let diameter = 6;
+if (diameter > 0) {
+    let pi = 3.14;
+    let circumference = pi * diameter;
+    console.log("The circumference is " + circumference);
+}
